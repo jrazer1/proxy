@@ -31,43 +31,42 @@ whitelist = [
 	"vk.com",
 	"userapi.com",
 */
-  	"youtube.com",
-  	"googlevideo.com",//для корректной работы youtube (см. примечание в начале .pac-файла)
+  "youtube.com",
+  "googlevideo.com",//для корректной работы youtube (см. примечание в начале .pac-файла)
 	"2ip.ru",//чтобы смотреть реальный ip, для проверки работы прокси - myip.ru
 	"mvideo.ru",
-  	"eldorado.ru",
-	"aliexpress.com",
+  "eldorado.ru",
+	"aliexpress.com",//чтобы не надо было вводить капчу
 	"ebay.com",
-  	"ozon.ru",
-  	"solarisjapan.com",
-  	"letyshops.com",
-  	"apteka.ru",
-  	"case-place.ru",
-  	"pornhub.com",
-  	"citilink.ru",
-  	"paypal.com",
-  	"avito.ru",
-  	"mediamarkt.ru",
-  	"mega.nz",//чтобы качать с МЕГИ на максимальной скорости (мб через прокси скорость получится такая же, как и напрямую, я не проверял)
-  	"yadi.sk",//чтобы качать с Я.Диска на максимальной скорости (мб через прокси скорость получится такая же, как и напрямую, я не проверял)
-  	"mts.ru",
-  	"onlinetrade.ru",
-  	"2gis.ru",
-  	"003rt.ru",
-  	"kimovil.ru",//чтобы показывал совместимость с ру сетями
-  	"psbank.ru",
-  	"google.com",//чтобы не надоедала рекапча, ограничение выдачи решать настройкой google.com на Соединенные Штаты
+  "ozon.ru",
+  "solarisjapan.com",
+  "letyshops.com",
+  "apteka.ru",
+  "case-place.ru",
+  "pornhub.com",
+  "citilink.ru",
+  "paypal.com",
+  "avito.ru",
+  "mediamarkt.ru",
+  "mega.nz",//чтобы качать с МЕГИ на максимальной скорости (мб через прокси скорость получится такая же, как и напрямую, я не проверял)
+  "yadi.sk",//чтобы качать с Я.Диска на максимальной скорости (мб через прокси скорость получится такая же, как и напрямую, я не проверял)
+  "mts.ru",
+  "onlinetrade.ru",
+  "2gis.ru",
+  "003rt.ru",
+  "kimovil.ru",//чтобы показывал совместимость с ру сетями
+  "psbank.ru",
+  "google.com",//чтобы не надоедала рекапча, ограничение выдачи решать настройкой google.com на Соединенные Штаты
  	"rutube.ru",
-  	"rbt.ru",
-  	"twitch.tv",
-  	//"vkuservideo.net",//официальный домен vk - исключить его из белого списка, чтобы избежать ошибку в некоторых видео (например, в https://vk.com/video-68431624_171119206) "источник не поддерживается" 
-  	"kinopoisk.ru",//т.к. из Германии сервер кинопоиска выдает ошибку 500
-  	"4pda.ru",//т.к. 4pda просит ввести капчу для Falkenstein Hetzner
-  	"pikabu.ru",//чтобы избежать ошибки на пикабу: Ошибка 403. Доступ запрещен. Пожалуйста, проверьте компьютер на наличие вирусов.
-  	"crypko.ai",//т.к. Unavailable For Legal Reasons Sorry, this service is currently unavailable in your region. We are working hard to resolve this issue.
-  	"crunchyroll.com",//т.к. написано access denied с hetzner
-  	"otzovik.com",//"Не удается получить доступ к сайту" через hetzner
-  	"aliexpress.com",//Чтобы не надо было вводить капчу
+  "rbt.ru",
+  "twitch.tv",
+  //"vkuservideo.net",//официальный домен vk - исключить его из белого списка, чтобы избежать ошибку в некоторых видео (например, в https://vk.com/video-68431624_171119206) "источник не поддерживается" 
+  "kinopoisk.ru",//т.к. из Германии сервер кинопоиска выдает ошибку 500
+  "4pda.ru",//т.к. 4pda просит ввести капчу для Falkenstein Hetzner
+  "pikabu.ru",//чтобы избежать ошибки на пикабу: Ошибка 403. Доступ запрещен. Пожалуйста, проверьте компьютер на наличие вирусов.
+  "crypko.ai",//т.к. Unavailable For Legal Reasons Sorry, this service is currently unavailable in your region. We are working hard to resolve this issue.
+  "crunchyroll.com",//т.к. написано access denied с hetzner
+  "otzovik.com",//"Не удается получить доступ к сайту" через hetzner
 ];
 
   if (/\.(ru|co|cu|com|info|net|org|gov|edu|int|mil|biz|pp|ne|msk|spb|od|in|ho|cc|dn|i|tut|v|dp|sl)\.[^.]+$/.test(host))
