@@ -67,6 +67,7 @@ whitelist = [
   	"crypko.ai",//т.к. Unavailable For Legal Reasons Sorry, this service is currently unavailable in your region. We are working hard to resolve this issue.
   	"crunchyroll.com",//т.к. написано access denied с hetzner
   	"otzovik.com",//"Не удается получить доступ к сайту" через hetzner
+  	"aliexpress.com",//Чтобы не надо было вводить капчу
 ];
 
   if (/\.(ru|co|cu|com|info|net|org|gov|edu|int|mil|biz|pp|ne|msk|spb|od|in|ho|cc|dn|i|tut|v|dp|sl)\.[^.]+$/.test(host))
