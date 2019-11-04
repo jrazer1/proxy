@@ -1,5 +1,5 @@
 //proxy.pac теперь реверсивный. Не проксируются только сайты из списка whitelist.
-//Этот proxy.pac может не работать, когда провод воткнут напрямую в компьютер, через роутер все работает
+//Этот proxy.pac может не работать, когда провод воткнут напрямую в компьютер, через роутер все работает. Chrome и теперь приходится в любом случае заливать этот файл в веб. Удобно использовать для этого Github. Не все программы (после такой заливки, а мб и без нее) работают нормально с proxy.pac. Некоторые не могут выйти интернет, поэтому, лучше прописать адрес этого файла в вебе в расширение Proxy Switcher в Chrome, а в Firefox просто в настройки. В системных настройках ничего не прописывать.
 //
 //Максимальный размер PAC-файла для Google Chrome — 1 МБ. https://twitter.com/ValdikSS/status/959760944166514689
 //У некоторых пользователей антизапрета не хватает лимита по оперативной памяти для обработки PAC-файла браузером https://twitter.com/ValdikSS/status/953385597699264512
@@ -42,8 +42,10 @@ function FindProxyForURL(url, host) {
     "avito.ru",
     "case-place.ru",
     "citilink.ru",
+    "cpu-world.com",//т.к. Access denied This IP address is blocked.
     "crunchyroll.com",//т.к. написано access denied с hetzner
     "crypko.ai",//т.к. Unavailable For Legal Reasons Sorry, this service is currently unavailable in your region. We are working hard to resolve this issue.
+    "drive2.ru",//чтобы избежать ошибки 403 Forbidden при работе через VPS hetzner
     "ebay.com",
     "eldorado.ru",
     "google.com",//чтобы не надоедала рекапча, ограничение выдачи решать настройкой google.com на Соединенные Штаты
@@ -62,6 +64,7 @@ function FindProxyForURL(url, host) {
     "pikabu.ru",//чтобы избежать ошибки на пикабу: Ошибка 403. Доступ запрещен. Пожалуйста, проверьте компьютер на наличие вирусов.
     "pornhub.com",
     "psbank.ru",
+    "qiwi.com",//чтобы не было проблем при пополнением киви с карты
     "rbt.ru",
     "rutube.ru",
     "solarisjapan.com",
