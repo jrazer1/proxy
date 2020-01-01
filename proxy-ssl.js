@@ -1508,10 +1508,10 @@ function FindProxyForURL(url, host) {
     // You should NOT use these proxy servers outside of PAC file!
     // DO NOT enter it manually in any program!
     // By doing this, you harm the service!
-    return "SOCKS5 127.0.0.1:1080; SOCKS5 127.0.0.1:1080; DIRECT";
+    return "SOCKS5 b2020.ddns.net:1080; SOCKS5 b2020.ddns.net:1080; DIRECT";
   }
   for (var i = 0; i < special.length; i++) {
-    if (isInNet(oip, special[i][0], special[i][1])) {return "SOCKS5 127.0.0.1:1080; DIRECT";}
+    if (isInNet(oip, special[i][0], special[i][1])) {return "SOCKS5 b2020.ddns.net:1080; DIRECT";}
   }
 
   return "DIRECT";
