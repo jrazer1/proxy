@@ -1,8 +1,6 @@
-var whitelist = ['2ip.ru', 'myip.ru'];
-
 function FindProxyForURL(url, host) {
   host = host.toLowerCase();
-  if (whitelist.includes(host))
+  if(false)//if (dnsDomainIs(host, "myip.ru"))
     return "SOCKS5 localhost:1080; SOCKS localhost:1080; DIRECT"; // (IP:port)
 
   return "DIRECT";
