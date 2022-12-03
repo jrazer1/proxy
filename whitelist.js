@@ -97,8 +97,7 @@ var whitelist = [
 ];
 
 function FindProxyForURL(url, host) {
-  host = host.toLowerCase();
-  if (!whitelist.includes(host))
+  if (!whitelist.includes(host.toLowerCase()))
     return "SOCKS5 localhost:1080; SOCKS localhost:1080; DIRECT"; // (IP:port)
 
   return "DIRECT";
