@@ -43,7 +43,6 @@ var whitelist = [
 ,'hentai-gif-anime.com'
 ,'hentai-img.com'
 ,'hentailib.me'
-,'icloud.com'
 ,'imgur.com'
 ,'i.imgur.com'
 ,'kassir.ru'
@@ -96,8 +95,8 @@ var whitelist = [
 ];
 
 function FindProxyForURL(url, host) {
-  if (!whitelist.some((elementOfWhitelist) => dnsDomainIs(host, elementOfWhitelist) === true) || !whitelist.some((elementOfWhitelist) => dnsDomainIs(host, 'www.' + elementOfWhitelist) === true))
-    return "SOCKS5 localhost:1080; SOCKS localhost:1080; DIRECT"; // (IP:port)
+  if (whitelist.some((elementOfWhitelist) => dnsDomainIs(host, elementOfWhitelist) === true) || whitelist.some((elementOfWhitelist) => dnsDomainIs(host, 'www.' + elementOfWhitelist) === true))
+    return "DIRECT"; 
 
-  return "DIRECT";
+  return "SOCKS5 localhost:1080; SOCKS localhost:1080; DIRECT"; // (IP:port)
 }
