@@ -36,7 +36,6 @@ var whitelist = [
 ,'essensworld.ru'
 ,'evernote.com'
 ,'farmlend.ru'
-,'google.com'
 ,'google.ru'
 ,'halvacard.ru'
 ,'hentai-cosplays.com'
