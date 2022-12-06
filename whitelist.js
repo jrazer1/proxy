@@ -48,6 +48,7 @@ var whitelist = [
 ,'imgur.com'
 ,'i.imgur.com'
 ,'kassir.ru'
+,'kazan.leroymerlin.ru'
 ,'kimovil.com'
 ,'kinopoisk.ru'
 ,'lenta.com'
