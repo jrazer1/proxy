@@ -43,6 +43,7 @@ var whitelist = [
 ,'hentai-gif-anime.com'
 ,'hentai-img.com'
 ,'hentailib.me'
+,'icloud.com'
 ,'imgur.com'
 ,'i.imgur.com'
 ,'kassir.ru'
