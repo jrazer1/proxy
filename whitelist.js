@@ -76,6 +76,7 @@ var whitelist = [
 ,'rbt.ru'
 ,'re-store.ru'
 ,'rutube.ru'
+,'sberbank.ru'
 ,'sbermarket.ru'
 ,'solarisjapan.com'
 ,'sovcombank.ru'
