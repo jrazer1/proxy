@@ -26,6 +26,7 @@ var whitelist = [
 ,'cpu-world.com'
 ,'crunchyroll.com'
 ,'crypko.ai'
+,'d-cd.net'
 ,'decathlon.ru'
 ,'deviantart.com'
 ,'drive2.ru'
