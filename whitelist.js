@@ -1,6 +1,7 @@
 var whitelist = [
  'localhost'
 ,'192.168.88.1'
+,'192.168.88.254'
 ,'003rt.ru'
 ,'2ch.hk'
 ,'2ch.life'
@@ -37,6 +38,7 @@ var whitelist = [
 ,'essensworld.ru'
 ,'evernote.com'
 ,'farmlend.ru'
+,'fix-price.com'
 ,'google.ru'
 ,'halvacard.ru'
 ,'hentai-cosplays.com'
